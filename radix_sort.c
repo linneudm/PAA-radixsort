@@ -3,8 +3,7 @@
 #include <time.h>
 
 #define TAM1 50000
-#define TAM2 100000
-#define TAM3 500000
+//TAMANHO 1 = 50.000, TAMANHO 2 = 100.000 e TAMANHO3 = 500.000
 
 void lerArquivo(int dados[]){
 
@@ -77,6 +76,7 @@ int main(){
 		for (i = 0; i < TAM1; ++i){
 		printf("%d\n", dados[i] );
 	}
+	printf("Tempo decorrido ta funcao: %lf", tempo);
 
 	return 0;
 }
